@@ -73,12 +73,45 @@ const tweet1 = {
     console.log('Notify friends!', i);
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
+
+  // Functions
+//Defining functions
+function login(username, password) {
+  if (username == 'Dennis' && password == '1234') {
+    return 'User is logged in!';
+  } else if (username != 'Dennis') {
+    return 'Invalid username';
+  } else if (password != '1234') {
+    return 'Invalid password';
+  } else {
+    return 'Invalid username or password!';
+  }
+}
+//Invoking functions
+login('Denns', '124');
+
+//Basic arithmethic
+12 + 34;
+45 - 16;
+7 * 12;
+78 / 4;
+78 % 4;
+
+//Comparison operators
+2 == '2';
+2 === '2';
+3 !== 2;
+
+//Built in math functions
+Math.round(37 / 24);
+Math.floor(37 /24);
+Math.ceil(37 / 24);
+Math.random();
+Math.max(12, 14, 202, 89);
+
+// Order of operations
+1 * 2 + 3 - 4 / 2 % 2
+
+//Handling user inputs
+1200 + number('250');  
   

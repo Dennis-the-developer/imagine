@@ -115,3 +115,21 @@ Math.max(12, 14, 202, 89);
 //Handling user inputs
 1200 + number('250');  
   
+//String concatenation
+const firstname = 'Dennis ';
+const lastname = ' Appah';
+firstname.trim() + ' ' + lastname.trim();
+
+//Template Literal
+`${firstname.trim()} ${lastname.trim()}`;
+
+//String method
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.charAt(0);
+
+//string conversion
+String(2014);

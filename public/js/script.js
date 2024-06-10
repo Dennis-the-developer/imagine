@@ -133,3 +133,29 @@ lastname.charAt(0);
 
 //string conversion
 String(2014);
+
+// Write a function that will add a participant to our google classroom
+const participants = [];
+function addparticipant(email){
+//Check if email was provided
+ if (!email){
+   return 'Email not provided';
+ }
+  
+// Check if email is valid
+if (!email.includes('@')){
+  return 'Invalid email provided';
+ }
+// Add email to the participants
+ participants.push(email);
+//Notifiy them via email
+//Return response
+return 'Participants added!';
+}
+
+//addParticipant('Dennis@gmail.com');
+
+// Arrays in Javascript
+const alphabets = ['A', 'B', 'C', 'D'];
+alphabets.join(' ');
+alphabets.join(' ').split(' ')
